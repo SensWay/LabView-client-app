@@ -1,0 +1,14 @@
+
+UART:INIT <baudrate>, <Bytes size>, <Stop bit>, <parity> 	Initiate the UART communication with specified parameters
+	e.g. UART:INIT B9600, CS8, STOP1, NONE			Initiate UART at 9600 bauds/sec, 8 bits bytes, 1 stop bit and no parity
+
+UART:WRITE <message>						Writes the message to the UART port, UART needs to be initialized before
+	e.g. UART:WRITE "hello world"				Writes "hello world" on the UART port
+
+UART:READ							Reads and returns a message read from the UART
+
+UART:CLOSE							Closes the UART communication 
+
+* * * * * * * * * * * * * * * * * * * * * * * * * COMMANDS TO FIX * * * * * * * * * * * * * * * * * * * * * * * * *
+IIC:READ <addr>							Read from i2c device
+IIC:WRITE <addr>, <reg>, <val>					Write on i2c device
