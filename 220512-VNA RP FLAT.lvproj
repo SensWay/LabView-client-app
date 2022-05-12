@@ -10,8 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="220225-VNA RP FLAT.vi" Type="VI" URL="../220225-VNA RP FLAT.vi"/>
+		<Item Name="220512-VNA RP FLAT.vi" Type="VI" URL="../220512-VNA RP FLAT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Property Name="NI.SortType" Type="Int">2</Property>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -90,14 +91,13 @@
 			<Item Name="GET PARABOLIC FIT POINTS.vi" Type="VI" URL="../GET PARABOLIC FIT POINTS.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MAKE DISPLAY ARRAY.vi" Type="VI" URL="../MAKE DISPLAY ARRAY.vi"/>
-			<Item Name="Query.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/Red_Pitaya/Public/Utility/Query.vi"/>
 			<Item Name="RedPitaya.lvlib" Type="Library" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/Red_Pitaya/RedPitaya.lvlib"/>
 			<Item Name="Resonnance detection.ctl" Type="VI" URL="../Resonnance detection.ctl"/>
 			<Item Name="RP - READ MAC CONF FILE.vi" Type="VI" URL="../RP - READ MAC CONF FILE.vi"/>
 			<Item Name="RP-ANALOG-OUT.vi" Type="VI" URL="../RP-ANALOG-OUT.vi"/>
-			<Item Name="RP-GEN SINUS-OUT.vi" Type="VI" URL="../../Variance measurement/RP-GEN SINUS-OUT.vi"/>
-			<Item Name="RP-GET IP ADDRESS.vi" Type="VI" URL="../../Variance measurement/RP-GET IP ADDRESS.vi"/>
-			<Item Name="RP-START SCPI.vi" Type="VI" URL="../../Variance measurement/RP-START SCPI.vi"/>
+			<Item Name="RP-GEN SINUS-OUT.vi" Type="VI" URL="../RP-GEN SINUS-OUT.vi"/>
+			<Item Name="RP-GET IP ADDRESS.vi" Type="VI" URL="../RP-GET IP ADDRESS.vi"/>
+			<Item Name="RP-START SCPI.vi" Type="VI" URL="../RP-START SCPI.vi"/>
 			<Item Name="RP-SWITCH CHANNEL.vi" Type="VI" URL="../RP-SWITCH CHANNEL.vi"/>
 			<Item Name="RP-TRACKDataStructBuild.vi" Type="VI" URL="../RP-TRACKDataStructBuild.vi"/>
 			<Item Name="RP-VNA DATA TBL Extract.vi" Type="VI" URL="../RP-VNA DATA TBL Extract.vi"/>
@@ -119,43 +119,43 @@
 			<Item Name="VNARP-VNASETTING CLTR MANAGMENT.vi" Type="VI" URL="../VNARP-VNASETTING CLTR MANAGMENT.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="220225-VNA RP FLAT" Type="EXE">
+			<Item Name="220512-VNA RP FLAT" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{2F746992-9981-4F74-8B98-4FACDB0F2AAA}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{D2C0BC9B-8E9F-4694-AD70-EB7FB054EAA4}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{CEC671AA-E708-4772-98A8-2DBE70B765C0}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{45AE890C-FF8B-4860-A6E4-B87287297401}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{28524509-53C9-41E5-92F8-7BAF4DB3B32E}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">220225-VNA RP FLAT</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3029EEBD-CD50-4002-B9F7-657EC4D72A9B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">220512-VNA RP FLAT</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/220225-VNA RP FLAT</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/220512-VNA RP FLAT</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{FCC4F141-C71F-4FB2-94B3-FE2B77C80E7F}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6D88DE27-7250-44C2-BC69-9262109A15E7}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/220225-VNA RP FLAT/Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/220512-VNA RP FLAT/Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/220225-VNA RP FLAT/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/220512-VNA RP FLAT/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{63199D6B-5E73-45E5-A9C3-7339F905D33F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{75C79E64-E0F5-4A38-B8DD-6C154B86C63C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/220225-VNA RP FLAT.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/220512-VNA RP FLAT.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">IUT de Bordeaux - Université de Bordeaux</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">220225-VNA RP FLAT</Property>
-				<Property Name="TgtF_internalName" Type="Str">220225-VNA RP FLAT</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">220512-VNA RP FLAT</Property>
+				<Property Name="TgtF_internalName" Type="Str">220512-VNA RP FLAT</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 IUT de Bordeaux - Université de Bordeaux</Property>
-				<Property Name="TgtF_productName" Type="Str">220225-VNA RP FLAT</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{FE025F48-4902-4693-94C4-B4A9542D1268}</Property>
+				<Property Name="TgtF_productName" Type="Str">220512-VNA RP FLAT</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{5B67275A-4C41-4D5C-A4BD-097E7A8632EF}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
