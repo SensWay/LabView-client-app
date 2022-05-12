@@ -86,11 +86,12 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 			<Item Name="Channel parameters.ctl" Type="VI" URL="../Channel parameters.ctl"/>
-			<Item Name="Field_RnD_Services_LIBSSH2_Toolkit.lvlib" Type="Library" URL="../../Variance measurement/Field R&amp;D Services/LIBSSH2 for LabVIEW/Toolkit/Field_RnD_Services_LIBSSH2_Toolkit.lvlib"/>
+			<Item Name="Field_RnD_Services_LIBSSH2_Toolkit.lvlib" Type="Library" URL="../Field R&amp;D Services/LIBSSH2 for LabVIEW/Toolkit/Field_RnD_Services_LIBSSH2_Toolkit.lvlib"/>
 			<Item Name="GET PARABOLIC FIT POINTS.vi" Type="VI" URL="../GET PARABOLIC FIT POINTS.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MAKE DISPLAY ARRAY.vi" Type="VI" URL="../MAKE DISPLAY ARRAY.vi"/>
-			<Item Name="RedPitaya.lvlib" Type="Library" URL="../../Variance measurement/Red_Pitaya/RedPitaya.lvlib"/>
+			<Item Name="Query.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/Red_Pitaya/Public/Utility/Query.vi"/>
+			<Item Name="RedPitaya.lvlib" Type="Library" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/Red_Pitaya/RedPitaya.lvlib"/>
 			<Item Name="Resonnance detection.ctl" Type="VI" URL="../Resonnance detection.ctl"/>
 			<Item Name="RP - READ MAC CONF FILE.vi" Type="VI" URL="../RP - READ MAC CONF FILE.vi"/>
 			<Item Name="RP-ANALOG-OUT.vi" Type="VI" URL="../RP-ANALOG-OUT.vi"/>
@@ -120,12 +121,12 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="220225-VNA RP FLAT" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{068290B3-0BDA-43F8-A65F-6B1E5375E134}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{C965CA48-54BD-4D07-8E9E-CD62C7E42C51}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{2F746992-9981-4F74-8B98-4FACDB0F2AAA}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D2C0BC9B-8E9F-4694-AD70-EB7FB054EAA4}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{02FCF765-4C63-4DF4-833A-31D2F0C32D2A}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{28524509-53C9-41E5-92F8-7BAF4DB3B32E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">220225-VNA RP FLAT</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -133,17 +134,16 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/220225-VNA RP FLAT</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{7DA25C7F-CCBB-4D49-A8E4-E4D284E51989}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{FCC4F141-C71F-4FB2-94B3-FE2B77C80E7F}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">220427-sensway.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/220225-VNA RP FLAT/220427-sensway.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/220225-VNA RP FLAT/Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/220225-VNA RP FLAT/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D04F93A6-0C93-4CC0-AA2C-5BFF77CC3472}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{63199D6B-5E73-45E5-A9C3-7339F905D33F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/220225-VNA RP FLAT.vi</Property>
@@ -155,8 +155,8 @@
 				<Property Name="TgtF_internalName" Type="Str">220225-VNA RP FLAT</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 IUT de Bordeaux - Université de Bordeaux</Property>
 				<Property Name="TgtF_productName" Type="Str">220225-VNA RP FLAT</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{19FD5A9D-6422-4063-99E9-2125A4342E2A}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">220427-sensway.exe</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{FE025F48-4902-4693-94C4-B4A9542D1268}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
