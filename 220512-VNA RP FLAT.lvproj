@@ -131,20 +131,20 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../app-releases</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/app-releases</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6D88DE27-7250-44C2-BC69-9262109A15E7}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">220524-sensway.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../app-releases/220524-sensway.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/app-releases/220524-sensway.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../app-releases/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/app-releases/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{32785132-6B14-4E05-AB90-EB605CB333DB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A6B64E45-416A-487A-B9D8-52321E4BA5FB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/220512-VNA RP FLAT.vi</Property>
@@ -152,6 +152,7 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">IUT de Bordeaux - Université de Bordeaux</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">220524-sensway</Property>
 				<Property Name="TgtF_internalName" Type="Str">220524-sensway</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 IUT de Bordeaux - Université de Bordeaux</Property>
