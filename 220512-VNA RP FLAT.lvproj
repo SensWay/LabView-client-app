@@ -119,7 +119,7 @@
 			<Item Name="VNARP-VNASETTING CLTR MANAGMENT.vi" Type="VI" URL="../VNARP-VNASETTING CLTR MANAGMENT.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="220512-VNA RP FLAT" Type="EXE">
+			<Item Name="220524-sensway" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{CEC671AA-E708-4772-98A8-2DBE70B765C0}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{45AE890C-FF8B-4860-A6E4-B87287297401}</Property>
@@ -127,23 +127,24 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3029EEBD-CD50-4002-B9F7-657EC4D72A9B}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">220512-VNA RP FLAT</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">220524-sensway</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/220512-VNA RP FLAT</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../app-releases</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6D88DE27-7250-44C2-BC69-9262109A15E7}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/220512-VNA RP FLAT/Application.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">220524-sensway.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../app-releases/220524-sensway.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/220512-VNA RP FLAT/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../app-releases/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{75C79E64-E0F5-4A38-B8DD-6C154B86C63C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{32785132-6B14-4E05-AB90-EB605CB333DB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/220512-VNA RP FLAT.vi</Property>
@@ -151,12 +152,12 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">IUT de Bordeaux - Université de Bordeaux</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">220512-VNA RP FLAT</Property>
-				<Property Name="TgtF_internalName" Type="Str">220512-VNA RP FLAT</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">220524-sensway</Property>
+				<Property Name="TgtF_internalName" Type="Str">220524-sensway</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 IUT de Bordeaux - Université de Bordeaux</Property>
-				<Property Name="TgtF_productName" Type="Str">220512-VNA RP FLAT</Property>
+				<Property Name="TgtF_productName" Type="Str">220524-sensway</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5B67275A-4C41-4D5C-A4BD-097E7A8632EF}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">220524-sensway.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
