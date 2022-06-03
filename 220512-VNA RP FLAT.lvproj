@@ -14,6 +14,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">2</Property>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -24,6 +25,7 @@
 				<Item Name="Command Line String To Path.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Command Line String To Path.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -104,9 +106,16 @@
 			<Item Name="RP-VOA CALIBRATION FIT.vi" Type="VI" URL="../RP-VOA CALIBRATION FIT.vi"/>
 			<Item Name="RP-VOA CONVERSION P to V.vi" Type="VI" URL="../RP-VOA CONVERSION P to V.vi"/>
 			<Item Name="Spectrum data.ctl" Type="VI" URL="../Spectrum data.ctl"/>
-			<Item Name="Uart close.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/SCPI_new_commands/Uart close.vi"/>
-			<Item Name="Uart init.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/SCPI_new_commands/Uart init.vi"/>
-			<Item Name="Uart write.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/SCPI_new_commands/Uart write.vi"/>
+			<Item Name="Uart bits.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/SCPI_UART/Uart bits.vi"/>
+			<Item Name="Uart init.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/SCPI_UART/Uart init.vi"/>
+			<Item Name="Uart parity.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/SCPI_UART/Uart parity.vi"/>
+			<Item Name="Uart read.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/SCPI_UART/Uart read.vi"/>
+			<Item Name="Uart release.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/SCPI_UART/Uart release.vi"/>
+			<Item Name="Uart setup.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/SCPI_UART/Uart setup.vi"/>
+			<Item Name="Uart speed.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/SCPI_UART/Uart speed.vi"/>
+			<Item Name="Uart stop bits.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/SCPI_UART/Uart stop bits.vi"/>
+			<Item Name="Uart timeout.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/SCPI_UART/Uart timeout.vi"/>
+			<Item Name="Uart write.vi" Type="VI" URL="../Red_Pitaya_LabVIEW_Driver&amp;Examples/SCPI_UART/Uart write.vi"/>
 			<Item Name="vna settings.ctl" Type="VI" URL="../vna settings.ctl"/>
 			<Item Name="VNARP - LAUNCH.vi" Type="VI" URL="../VNARP - LAUNCH.vi"/>
 			<Item Name="VNARP PARABOLA FIT.vi" Type="VI" URL="../VNARP PARABOLA FIT.vi"/>
@@ -131,13 +140,11 @@
 				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/lucie/OneDrive/Documents/LabVIEW Data/2021(32-bit)/ExtraVILib</Property>
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
-				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../llb/220524-VNA RP FLAT.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{739199AE-10D2-431D-8427-5899CC8B44AC}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../llb/220524-VNA RP FLAT.llb</Property>
@@ -146,14 +153,14 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CC99C2DF-A127-4805-9D3F-2200101A6873}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{696D50F7-6D01-4D9D-B60E-FE3F256D8BC6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/220512-VNA RP FLAT.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
-			<Item Name="220524-sensway" Type="EXE">
+			<Item Name="220530-SensWay" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{CEC671AA-E708-4772-98A8-2DBE70B765C0}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{45AE890C-FF8B-4860-A6E4-B87287297401}</Property>
@@ -161,7 +168,7 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3029EEBD-CD50-4002-B9F7-657EC4D72A9B}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">220524-sensway</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">220530-SensWay</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -169,30 +176,30 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6D88DE27-7250-44C2-BC69-9262109A15E7}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">220524-sensway.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/app-releases/220524-sensway.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">220530-SensWay.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/app-releases/220530-SensWay.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/app-releases/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A6B64E45-416A-487A-B9D8-52321E4BA5FB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F7E4F814-F8F8-485B-BC21-4BD5E2CF824A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/220512-VNA RP FLAT.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">IUT de Bordeaux - Université de Bordeaux</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">220524-sensway</Property>
-				<Property Name="TgtF_internalName" Type="Str">220524-sensway</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">220530-SensWay</Property>
+				<Property Name="TgtF_internalName" Type="Str">220530-SensWay</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 IUT de Bordeaux - Université de Bordeaux</Property>
-				<Property Name="TgtF_productName" Type="Str">220524-sensway</Property>
+				<Property Name="TgtF_productName" Type="Str">220530-SensWay</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5B67275A-4C41-4D5C-A4BD-097E7A8632EF}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">220524-sensway.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">220530-SensWay.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
