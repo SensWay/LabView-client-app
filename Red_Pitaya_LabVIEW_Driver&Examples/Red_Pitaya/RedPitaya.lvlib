@@ -49,7 +49,7 @@
 			<Item Name="Read Before Trigger Delay.vi" Type="VI" URL="../Public/Data/Read Before Trigger Delay.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Query.vi" Type="VI" URL="../../../../../Red Pitaya Labview Lib/Red_Pitaya_LabVIEW_Driver&amp;Examples/Red_Pitaya/Public/Utility/Query.vi"/>
+			<Item Name="Query.vi" Type="VI" URL="../Public/Utility/Query.vi"/>
 			<Item Name="Set.vi" Type="VI" URL="../Public/Utility/Set.vi"/>
 			<Item Name="Query Bin Format.vi" Type="VI" URL="../Public/Utility/Query Bin Format.vi"/>
 		</Item>
